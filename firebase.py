@@ -38,9 +38,9 @@ def signin(email, password):
         elif "EMAIL_NOT_FOUND" in e.strerror:
             return "Incorrect e-mail", "error"
 
-# signup = signup("gowtham180502@gmail.com", "123456")
+# signup = signup("asdf123@gmail.com", "123456")
 # print(signup)
 
-# login = login("gowtham180502@gmail.com", "123456")
+# login = login("asdf123@gmail.com", "123456")
 # print(login)
 
